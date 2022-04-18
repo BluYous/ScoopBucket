@@ -1,7 +1,7 @@
 {
     "homepage": "https://pc.weixin.qq.com/",
     "description": "Free messaging and calling app.",
-    "version": "3.0.0",
+    "version": "3.5.0.46",
     "license": "Freeware",
     "url": "https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe#/dl.7z",
     "bin": "wechat.exe",
