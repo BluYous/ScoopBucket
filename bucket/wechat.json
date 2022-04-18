@@ -1,7 +1,7 @@
 {
     "homepage": "https://pc.weixin.qq.com/",
     "description": "Free messaging and calling app.",
-    "version": "3.2.1",
+    "version": "3.0.0",
     "license": "Freeware",
     "url": "https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe#/dl.7z",
     "bin": "wechat.exe",
@@ -20,5 +20,11 @@
         "url": "https://chocolatey.org/packages/wechat",
         "regex": "Downloads of v\\s+([\\d.]+)"
     },
-    "autoupdate": "https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe#/dl.7z"
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "url": "https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe#/dl.7z"
+            }
+        }
+    }
 }
