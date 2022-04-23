@@ -1,0 +1,61 @@
+{
+    "version": "5.0.1",
+    "description": "look up records for one or more IPs/networks in one or more .mmdb databases",
+    "homepage": "https://github.com/t1m0thyj/WinDynamicDesktop",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/t1m0thyj/WinDynamicDesktop/releases/download/v5.0.1/WinDynamicDesktop_5.0.1_x64_Portable.exe",
+            "hash": "72e24d41c715ee2c471d57fa8319d50ef7962c67092cd7c4d8f03ff72f5041d5",
+            "shortcuts": [
+                [
+                    "WinDynamicDesktop_5.0.1_x64_Portable.exe",
+                    "WinDynamicDesktop"
+                ]
+            ]
+        },
+        "32bit": {
+            "url": "https://github.com/t1m0thyj/WinDynamicDesktop/releases/download/v5.0.1/WinDynamicDesktop_5.0.1_x86_Portable.exe",
+            "hash": "bd41b1962ac5a4878df2b580cb58ff007024f8de873737c6c544b992ee39cb16",
+            "shortcuts": [
+                [
+                    "WinDynamicDesktop_5.0.1_x86_Portable.exe",
+                    "WinDynamicDesktop"
+                ]
+            ]
+        }
+    },
+    "installer": {
+        "script": [
+            "if (!(Test-Path \"$persist_dir\\settings.json\")) { Set-Content -LiteralPath \"$dir\\settings.json\" -Value \"{}\" -Force }"
+        ]
+    },
+    "persist": [
+        "scripts",
+        "themes",
+        "settings.json"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/t1m0thyj/WinDynamicDesktop/releases/download/v$version/WinDynamicDesktop_$version_x64_Portable.exe",
+                "shortcuts": [
+                    [
+                        "WinDynamicDesktop_$version_x64_Portable.exe",
+                        "WinDynamicDesktop"
+                    ]
+                ]
+            },
+            "32bit": {
+                "url": "https://github.com/t1m0thyj/WinDynamicDesktop/releases/download/v$version/WinDynamicDesktop_$version_x86_Portable.exe",
+                "shortcuts": [
+                    [
+                        "WinDynamicDesktop_$version_x86_Portable.exe",
+                        "WinDynamicDesktop"
+                    ]
+                ]
+            }
+        }
+    }
+}

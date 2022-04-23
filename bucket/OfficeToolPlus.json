@@ -1,0 +1,21 @@
+{
+    "version": "8.3.8.0",
+    "description": "Office Tool Plus 基于 Office 部署工具 (ODT) 打造，可以很轻松地部署 Office。无论你是个体还是团队，Office Tool Plus 都是您的 Office 小助手",
+    "homepage": "https://otp.landian.vip/zh-cn/",
+    "license": "Freeware",
+    "url": "https://github.com/YerongAI/Office-Tool/releases/download/v8.3.8.0/Office_Tool_with_runtime_v8.3.8.0.7z",
+    "hash": "a50c0c825fc6ca42275b634e758854751c9e42ff0084ea3a435f25d3159281aa",
+    "extract_dir": "Office Tool",
+    "shortcuts": [
+        [
+            "Office Tool Plus.exe",
+            "Office Tool Plus"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/YerongAI/Office-Tool"
+    },
+    "autoupdate": {
+        "url": "https://github.com/YerongAI/Office-Tool/releases/download/v$version/Office_Tool_with_runtime_v$version.7z"
+    }
+}
