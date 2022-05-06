@@ -6,7 +6,7 @@ dab1c545dcd49fd52ba66ddb0b197bbad2309e74  readme.txt
 26ee7577969265ff77a7fd786bcb707fe21a3d6b  plugins-jetbrains/power.jar
 b1bebbee8d98218db5794f596001b8b7427ae0c7  plugins-jetbrains/url.jar
 77bbb4b2ec2267bb4c53ed9e8d9b9641da185c7d  config-jetbrains/dns.conf
-f1032ad526e9a042217ec3a1b12419a26837e38e  config-jetbrains/power.conf
+6457b3fba66084790e66bdc2e8359315723a2d53  config-jetbrains/power.conf
 0b219cc137a185439fb9bd99d85b8fe320967507  config-jetbrains/url.conf
 a8419c985311ba34dcf7fbd8530ddcb65250e7fe  scripts/install-all-users.vbs
 e20448f6f3dcbf8aa6b89363793959a7ce331cbd  scripts/install-current-user.vbs
