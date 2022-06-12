@@ -31,6 +31,7 @@ Remove-Item .\install.ps1
 scoop install 7zip aria2 git -g
 git config --system pull.rebase false
 git config --system core.autocrlf false
+scoop update
 ```
 
 ### Add Basic Buckets
