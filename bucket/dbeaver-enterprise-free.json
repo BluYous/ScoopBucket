@@ -1,5 +1,5 @@
 {
-    "version": "22.0",
+    "version": "22.1",
     "description": "Database tool for developers, SQL programmers, database administrators and analysts",
     "homepage": "https://dbeaver.com/",
     "license": "Apache-2.0",
@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://dbeaver.com/files/dbeaver-ee-latest-win32.win32.x86_64.zip",
-            "hash": "8770cc05ecac267cefe774d57581535f14b91a73920e9b88567b028407277199"
+            "hash": "2f0318497cb5636dcd6f6da41d2564f1f740926b44cbcf53c27761a4a0046487"
         }
     },
     "extract_dir": "dbeaver",
