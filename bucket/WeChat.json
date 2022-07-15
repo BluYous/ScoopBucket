@@ -1,10 +1,10 @@
 {
     "homepage": "https://pc.weixin.qq.com/",
     "description": "微信，超过10亿人使用，能够通过网络给好友发送文字消息、表情和图片，还可以传送文件，与朋友视频聊天，让你的沟通更方便。并提供有多种语言界面。",
-    "version": "3.7.0",
+    "version": "3.7.5",
     "license": "Freeware",
     "url": "https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe#/dl.7z",
-    "hash": "f9061a7a57d15880bb3606c14a0786418a094daaedf92d413612f11aea4b5c8e",
+    "hash": "c91856d0721b09a10c7b37013ca93cabb5e618ea768e66a70141052930c0c351",
     "shortcuts": [
         [
             "wechat.exe",
