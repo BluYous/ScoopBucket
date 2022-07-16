@@ -5,8 +5,8 @@
 729d00e4fa04ca49c00b5b6aa60706dfadd5644e  plugins-jetbrains/hideme.jar
 26ee7577969265ff77a7fd786bcb707fe21a3d6b  plugins-jetbrains/power.jar
 b1bebbee8d98218db5794f596001b8b7427ae0c7  plugins-jetbrains/url.jar
-77bbb4b2ec2267bb4c53ed9e8d9b9641da185c7d  config-jetbrains/dns.conf
-405f62ff714fa3a13f594091e760c4a1da2ca3fe  config-jetbrains/power.conf
+f7ea9dc8c67e8aa7b0495d23ecff7cbcf0dbc2e6  config-jetbrains/dns.conf
+bb1e5e197857c868c2ada0feef143fe0a37a6488  config-jetbrains/power.conf
 0b219cc137a185439fb9bd99d85b8fe320967507  config-jetbrains/url.conf
 46194b9c7ac66a5446afbcf172ffd7743b53da44  scripts/install-all-users.vbs
 6825df9e07cf9febf0f9d2ff812fdc261f7ba72c  scripts/install-current-user.vbs
