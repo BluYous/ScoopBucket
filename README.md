@@ -41,6 +41,7 @@ scoop bucket add extras
 scoop bucket add versions
 scoop bucket add java
 scoop bucket add games
+scoop bucket add nirsoft
 ```
 
 ### Add This Bucket
