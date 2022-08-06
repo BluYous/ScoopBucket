@@ -42,6 +42,7 @@ scoop bucket add versions
 scoop bucket add java
 scoop bucket add games
 scoop bucket add nirsoft
+scoop bucket add nonportable
 ```
 
 ### Add This Bucket
