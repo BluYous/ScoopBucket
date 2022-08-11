@@ -1,31 +1,25 @@
 {
-    "version": "2.6.3",
+    "version": "3.0.1",
     "description": "新一代效率工具平台，自由组合插件应用，打造专属你的趁手工具集",
     "homepage": "https://u.tools/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://res.u-tools.cn/version2/uTools-2.6.3.exe#/dl.7z",
-            "hash": "7d669a33a306c78235d0eb3cacfada6af65d90dad1c9a89e8bd5184671ba81ca",
+            "url": "https://res.u-tools.cn/version2/uTools-3.0.1.exe#/dl.7z",
+            "hash": "e2af18e2b45697f3a7dcfe3e3bf2ccd090f557092f01348619f88ed9447bb95f",
             "installer": {
-                "script": [
-                    "Expand-7zipArchive \"$dir\\`$PLUGINSDIR/app-64.7z\" \"$dir\""
-                ]
+                "script": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR/app-64.7z\" \"$dir\""
             }
         },
         "32bit": {
-            "url": "https://res.u-tools.cn/version2/uTools-2.6.3-ia32.exe#/dl.7z",
-            "hash": "956feb8deac3ec6639eb60b3ff0519fcbfb3a52822a2461e10042108aabd2e79",
+            "url": "https://res.u-tools.cn/version2/uTools-3.0.1-ia32.exe#/dl.7z",
+            "hash": "d5696bd2f1140bb52ff500c1743ec7607fbec4f4292c57829d730dba46c9b250",
             "installer": {
-                "script": [
-                    "Expand-7zipArchive \"$dir\\`$PLUGINSDIR/app-32.7z\" \"$dir\""
-                ]
+                "script": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR/app-32.7z\" \"$dir\""
             }
         }
     },
-    "post_install": [
-        "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\" -Force -Recurse"
-    ],
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\" -Force -Recurse",
     "shortcuts": [
         [
             "uTools.exe",
