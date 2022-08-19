@@ -17,5 +17,7 @@ $maxMemory = $totalPhysicalMemory / 1mb * 0.2 -as [int]
 $CONT = $CONT -replace '^-Xms[0-9]+m$', "-Xms${minMemory}m"
 $CONT = $CONT -replace '^-Xmx[0-9]+m$', "-Xms${maxMemory}m"
 $CONT += "-javaagent:$bucketsdir/BluYousScoopBucket/assets/ja-netfilter-all/ja-netfilter.jar=jetbrains"
+$CONT += "--add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED"
+$CONT += "--add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED"
 $CONT += "-Dfile.encoding=UTF-8"
 Set-Content -LiteralPath "$dir\IDE\bin\idea64.exe.vmoptions" -Value $CONT -Encoding 'Ascii' -Force
