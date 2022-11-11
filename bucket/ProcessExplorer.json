@@ -1,5 +1,5 @@
 {
-    "version": "17.01",
+    "version": "17.02",
     "description": "Process Explorer shows you information about which handles and DLLs processes have opened or loaded.",
     "homepage": "https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer",
     "license": "Freeware",
