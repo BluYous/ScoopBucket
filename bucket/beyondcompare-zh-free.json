@@ -28,11 +28,10 @@
             }
         }
     },
-    "post_install": [
-        "warn 'reset trial...'",
-        "Remove-ItemProperty Registry::'HKEY_CURRENT_USER\\Software\\Scooter Software\\Beyond Compare 4' 'CacheID' -ErrorAction Ignore"
-    ],
-    "notes": "If trial has been expired, please uninstall and install again, it will reset the trial",
+    "post_install": {
+        "script": "& \"$bucketsdir\\BluYousScoopBucket\\scripts\\beyondcompare-zh-portable.ps1\" $dir $bucketsdir"
+    },
+    "notes": "It will reset the trial automatically every 2 hours.",
     "shortcuts": [
         [
             "BCompare.exe",
