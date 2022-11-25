@@ -1,19 +1,19 @@
 {
-    "version": "3.1.0",
+    "version": "3.2.0",
     "description": "新一代效率工具平台，自由组合插件应用，打造专属你的趁手工具集",
     "homepage": "https://u.tools/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://res.u-tools.cn/version2/uTools-3.1.0.exe#/dl.7z",
-            "hash": "7638c475e156413d2d7a9cd9204bc84237235b199e64f1fcda4095e903244799",
+            "url": "https://res.u-tools.cn/version2/uTools-3.2.0.exe#/dl.7z",
+            "hash": "6c2fdd6bab354d1e4860de76a89336b8506c8b890445af678665163b054dbd83",
             "installer": {
                 "script": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR/app-64.7z\" \"$dir\""
             }
         },
         "32bit": {
-            "url": "https://res.u-tools.cn/version2/uTools-3.1.0-ia32.exe#/dl.7z",
-            "hash": "93c0ae791f6998901150a28b18dc1ebc51132e3ab5d33feba63df24ca82b4411",
+            "url": "https://res.u-tools.cn/version2/uTools-3.2.0-ia32.exe#/dl.7z",
+            "hash": "04a3f4f657932902ff556728f523a2102006ab8c07dddd86acf32c9fcb73a0ec",
             "installer": {
                 "script": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR/app-32.7z\" \"$dir\""
             }
