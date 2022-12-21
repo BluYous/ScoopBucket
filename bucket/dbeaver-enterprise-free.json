@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://dbeaver.com/files/dbeaver-ee-latest-win32.win32.x86_64.zip",
-            "hash": "65271acf5169a10be1ee7dbe369e8833cef8357ceec3ca1a0ad65997fb5a7205"
+            "hash": "94752cfb17b3dec6734fd0793e701224e03df64fe74c29502362057d015fbec7"
         }
     },
     "extract_dir": "dbeaver",
