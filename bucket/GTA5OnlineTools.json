@@ -1,10 +1,10 @@
 {
-    "version": "3.0.8.1",
+    "version": "3.0.8.2",
     "description": "一个完全免费的GTA5线上模式辅助工具",
     "homepage": "https://crazyzhang.cn/",
     "license": "Freeware",
     "url": "https://github.com/CrazyZhang666/GTA5OnlineTools/releases/download/update/GTA5OnlineTools.exe",
-    "hash": "1c97c7f9c22dc1dc5a2ea695e23e349245b531cae2ea2e9bbdb78908e0b797ed",
+    "hash": "ff46fb635ae318c9e72bb3351863d18851f0bb3d5eeb8cb0437fd09c82aea3a0",
     "shortcuts": [
         [
             "GTA5OnlineTools.exe",
