@@ -1,10 +1,10 @@
 {
-    "version": "2.40",
+    "version": "2.41",
     "description": "PsExec's most powerful uses include launching interactive command-prompts on remote systems and remote-enabling tools like IpConfig that otherwise do not have the ability to show information about remote systems.",
     "homepage": "https://docs.microsoft.com/en-us/sysinternals/downloads/psexec",
     "license": "Freeware",
     "url": "https://download.sysinternals.com/files/PSTools.zip",
-    "hash": "3ca39982003d436d289a5a06a2d85b55b0432ca8bb1972226ec25dd96a78d391",
+    "hash": "2d8a529489572cc09d70b5287350b42b2474c594fce17bc13fec128cb5f4f81a",
     "architecture": {
         "64bit": {
             "bin": [
