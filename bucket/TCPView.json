@@ -1,10 +1,10 @@
 {
-    "version": "4.18",
+    "version": "4.19",
     "description": "TCPView is a Windows program that will show you detailed listings of all TCP and UDP endpoints on your system, including the local and remote addresses and state of TCP connections.",
     "homepage": "https://docs.microsoft.com/en-us/sysinternals/downloads/tcpview",
     "license": "Freeware",
     "url": "https://download.sysinternals.com/files/TCPView.zip",
-    "hash": "cb22421adaa3e1f94dc832714a464b15b01788a7d66fc59cde4ec7bed06e340e",
+    "hash": "4fc5ceba3e1b27ad95a24df35d094b454ec5f9478e12a8ca2b1b222705b9683b",
     "architecture": {
         "64bit": {
             "shortcuts": [
