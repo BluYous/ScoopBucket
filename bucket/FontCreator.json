@@ -1,5 +1,5 @@
 {
-    "version": "16.0.0.3069",
+    "version": "16.0.0.3073",
     "description": "The world's most popular font editor",
     "homepage": "https://www.high-logic.com/font-editor/fontcreator",
     "license": "Freeware",
@@ -7,11 +7,11 @@
     "architecture": {
         "64bit": {
             "url": "https://www.high-logic.com/FontCreatorSetup-x64.exe",
-            "hash": "cb0aa36e205df2af0e4e1a13dff0057114d81312a204399aa824b40a4f48f1ba"
+            "hash": "5d316594ab814c99b7642da2fe0d9c4ea53425bd0bf3e5efa65e63b4320122a4"
         },
         "32bit": {
             "url": "https://www.high-logic.com/FontCreatorSetup.exe",
-            "hash": "cb0aa36e205df2af0e4e1a13dff0057114d81312a204399aa824b40a4f48f1ba"
+            "hash": "5d316594ab814c99b7642da2fe0d9c4ea53425bd0bf3e5efa65e63b4320122a4"
         }
     },
     "shortcuts": [
